@@ -1,0 +1,42 @@
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+.profile {
+    height: 200px;
+    border-radius: 50%;
+}
+
+.feature-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 0.75rem;
+}
+
+.logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.ey {
+    border-radius: 5px;
+}
+
+.citco {
+    border-radius: 5px;
+}
+
+.loevlaw {
+    background-color: grey;
+    border-radius: 5px;
+    min-width: 200px;
+}
+
+@media (max-width: 400px) {
+    .loevlaw {
+        width: 50%;
+        height: 50%;
+    }
+}
