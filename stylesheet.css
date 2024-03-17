@@ -1,6 +1,6 @@
 h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: white;
+    /* color: white; */
 }
 
 .profile {
@@ -34,9 +34,9 @@ h1 {
     min-width: 200px;
 }
 
-@media (max-width: 400px) {
+/* @media (max-width: 400px) {
     .loevlaw {
         width: 50%;
         height: 50%;
     }
-}
+} */
